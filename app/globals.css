@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+  
+  --color-eco-green-dark: #1B5E20;
+  --color-eco-green: #2E7D32;
+  --color-eco-green-light: #4CAF50;
+  --color-eco-bg: #F5F5F5;
+  
+  --radius-xl: 14px;
+  --radius-2xl: 16px;
+  --shadow-dashboard: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply antialiased text-[#333] bg-[#F5F5F5];
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-[10px] border border-white/30 shadow-dashboard;
+  }
+  
+  .eco-gradient {
+    background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 50%, #4CAF50 100%);
+  }
+
+  .eco-gradient-soft {
+    background: linear-gradient(135deg, #F0F4F0 0%, #FFFFFF 100%);
+  }
+
+  .section-title {
+    @apply flex items-center gap-2 text-[14px] uppercase tracking-[1px] font-bold text-eco-green mb-4;
+  }
+  
+  .section-title::after {
+    @apply content-[''] flex-1 h-[1px] bg-black/10;
+  }
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}

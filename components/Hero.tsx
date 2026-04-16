@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'motion/react'
-import { ArrowRight, Leaf, Sparkles } from 'lucide-react'
+import { ArrowRight, ShoppingBag, Sparkles } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -72,8 +72,8 @@ export default function Hero() {
                animate={{ rotate: 360 }}
                transition={{ duration: 100, repeat: Infinity, ease: 'linear' }}
             >
-              <Leaf className="text-white w-48 h-48 opacity-20 absolute -top-10 -right-10" />
-              <Leaf className="text-white w-32 h-32 opacity-10 absolute bottom-12 left-8" />
+              <ShoppingBag className="text-white w-48 h-48 opacity-20 absolute -top-10 -right-10" />
+              <ShoppingBag className="text-white w-32 h-32 opacity-10 absolute bottom-12 left-8" />
             </motion.div>
             
             {/* Overlay stats card */}

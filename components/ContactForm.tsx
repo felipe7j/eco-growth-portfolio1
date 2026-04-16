@@ -36,7 +36,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <p className="text-sm opacity-60 font-bold uppercase tracking-wider">Telefone / WhatsApp</p>
-                    <p className="text-xl font-bold font-poppins">(11) 99999-9999</p>
+                    <p className="text-xl font-bold font-poppins">(18) 99731-2275</p>
                   </div>
                 </div>
                 
@@ -46,7 +46,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <p className="text-sm opacity-60 font-bold uppercase tracking-wider">E-mail</p>
-                    <p className="text-xl font-bold font-poppins">contato@ecogrowth.com</p>
+                    <p className="text-xl font-bold font-poppins">fgoncalves116@gmail.com</p>
                   </div>
                 </div>
 
@@ -56,7 +56,7 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <p className="text-sm opacity-60 font-bold uppercase tracking-wider">Endereço</p>
-                    <p className="text-xl font-bold font-poppins">São Paulo, SP - Brasil</p>
+                    <p className="text-xl font-bold font-poppins">Junqueirópolis, SP - Brasil</p>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function ContactForm() {
                 <input 
                   required 
                   type="tel" 
-                  placeholder="(11) 99999-9999" 
+                  placeholder="(18) 99731-2275" 
                   className="w-full px-4 py-3 rounded-lg bg-white border border-black/10 focus:border-eco-green transition-all outline-none font-inter text-sm"
                 />
               </div>

@@ -7,22 +7,22 @@ import { ExternalLink } from 'lucide-react'
 export default function Portfolio() {
   const projects = [
     {
-      title: 'Vibe Natural - Cosméticos',
+      title: 'Moda Elegance - Loja de Roupas',
       category: 'Identidade Visual & E-commerce',
-      img: 'https://picsum.photos/seed/cosmetics/800/600',
-      desc: 'Redesign completo de marca com foco em sustentabilidade.'
+      img: 'https://picsum.photos/seed/clothing-store/800/600',
+      desc: 'Redesign completo da vitrine digital e branding exclusivo.'
     },
     {
-      title: 'TechRoot Solutions',
-      category: 'Site Institucional & SEO',
-      img: 'https://picsum.photos/seed/tech/800/600',
-      desc: 'Plataforma web otimizada para conversão de leads B2B.'
+      title: 'Empório das Frutas',
+      category: 'Gestão de Anúncios & SEO',
+      img: 'https://picsum.photos/seed/fruit-shop/800/600',
+      desc: 'Estratégia de tráfego local com foco em vendas por WhatsApp.'
     },
     {
-      title: 'Café do Bosque',
-      category: 'Social Media & Tráfego Pago',
-      img: 'https://picsum.photos/seed/coffee/800/600',
-      desc: 'Gestão de redes sociais com aumento de 40% no faturamento.'
+      title: 'PetShop Amigão',
+      category: 'Social Media & Design',
+      img: 'https://picsum.photos/seed/pet-shop/800/600',
+      desc: 'Criação de autoridade e engajamento orgânico para comércio local.'
     }
   ]
 
@@ -44,7 +44,7 @@ export default function Portfolio() {
             </p>
           </div>
           <motion.a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5518997312275"
             className="text-eco-green-dark font-bold flex items-center gap-2 hover:text-eco-green transition-colors pb-1 border-b-2 border-eco-green"
             whileHover={{ x: 5 }}
           >
